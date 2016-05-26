@@ -1,6 +1,6 @@
 {
   "name": "reactcss",
-  "version": "0.4.5",
+  "version": "0.4.5-zmbl1",
   "description": "Bringing Classes to Inline Styles",
   "author": "case <case@casesandberg.com>",
   "main": "lib/react-css.js",
@@ -12,11 +12,13 @@
     "react",
     "reactcss"
   ],
+  "peerDependencies": {
+    "react": "^15.1.0"
+  },
   "dependencies": {
     "lodash.isarray": "^4.0.0",
     "lodash.isobject": "^3.0.2",
     "merge": "^1.2.0",
-    "react": "^0.14.0 || ^15.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.6.4",
